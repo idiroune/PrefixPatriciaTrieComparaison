@@ -1,0 +1,22 @@
+digraph {
+	root_c [label=c]
+	root -> root_c
+	root_c_a [label=a]
+	root_c -> root_c_a
+	root_c_a_t [label=t]
+	root_c_a -> root_c_a_t
+	"root_c_a_t_$" [label=<end>]
+	root_c_a_t -> "root_c_a_t_$"
+	root_c_a_r [label=r]
+	root_c_a -> root_c_a_r
+	"root_c_a_r_$" [label=<end>]
+	root_c_a_r -> "root_c_a_r_$"
+	root_d [label=d]
+	root -> root_d
+	root_d_o [label=o]
+	root_d -> root_d_o
+	root_d_o_g [label=g]
+	root_d_o -> root_d_o_g
+	"root_d_o_g_$" [label=<end>]
+	root_d_o_g -> "root_d_o_g_$"
+}

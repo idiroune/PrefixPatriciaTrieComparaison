@@ -1,0 +1,8 @@
+digraph {
+	root_d [label=d]
+	root -> root_d
+	root_d_e [label=e]
+	root_d -> root_d_e
+	"root_d_e_$" [label=<end>]
+	root_d_e -> "root_d_e_$"
+}
